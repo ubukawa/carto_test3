@@ -1,0 +1,14 @@
+{
+"name": "/data/bnda_sa",
+"description": "/data/bnda_sa",
+"version": "2",
+"minzoom": "0",
+"maxzoom": "1",
+"center": "-90.000000,-42.525564,1",
+"bounds": "-91.664318,-55.135510,-36.300991,12.559447",
+"type": "overlay",
+"format": "pbf",
+"generator": "tippecanoe v1.34.6",
+"generator_options": "tippecanoe -e /data/bnda_sa --no-tile-compression -z1 -L bnda:/data/bnda_sa.geojson",
+"json": "{\"vector_layers\": [ { \"id\": \"bnda\", \"description\": \"\", \"minzoom\": 0, \"maxzoom\": 1, \"fields\": {\"MAPCLR\": \"String\"} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"bnda\",\"count\": 15,\"geometry\": \"Polygon\",\"attributeCount\": 1,\"attributes\": [{\"attribute\": \"MAPCLR\",\"count\": 15,\"type\": \"string\",\"values\": [\"ARG\",\"BOL\",\"BRA\",\"CHL\",\"COL\",\"ECU\",\"FRA\",\"GBR\",\"GUY\",\"PAN\",\"PER\",\"PRY\",\"SUR\",\"URY\",\"VEN\"]}]}]}}"
+}
