@@ -85,7 +85,7 @@
       "source-layer": "popp",
       "layout": {"visibility": "visible"},
       "paint": {
-           "circle-color": "rgba(255, 0, 0, 0)",
+           "circle-color": "rgba(255, 0, 0, 1)",
            "circle-radius": 5
         }
       }
