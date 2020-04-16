@@ -83,6 +83,8 @@
       "type": "circle",
       "source": "natural_earth",
       "source-layer": "popp",
+      "minzoom": 0,
+      "maxzoom": 10,
       "layout": {"visibility": "visible"},
       "paint": {
            "circle-color": "rgba(255, 0, 0, 1)",
