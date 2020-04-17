@@ -27,7 +27,27 @@
       "minzoom": 0,
       "maxzoom": 10,
       "layout": {"visibility": "visible"},
-      "paint": {"fill-color": "rgba(160, 245, 89, 1)"}
+      "paint": {"fill-color": "rgba(220, 213, 143, 1)"}
+    },
+   {
+      "id": "bnda-asia",
+      "type": "fill",
+      "source": "natural_earth",
+      "source-layer": "bnda",
+      "minzoom": 0,
+      "maxzoom": 10,
+      "layout": {"visibility": "visible"},
+      "paint": {
+         "fill-color": "rgba(244, 149, 140, 1)"
+         },
+      "filter": [
+        "all",
+          [
+           "==",
+           "CONTINENT",
+           "Asia"
+          ]
+        ]
     },
     {
       "id": "bndl_intl",
@@ -83,6 +103,8 @@
       "type": "circle",
       "source": "natural_earth",
       "source-layer": "popp",
+      "minzoom": 0,
+      "maxzoom": 10,
       "layout": {"visibility": "visible"},
       "paint": {
            "circle-color": "rgba(255, 0, 0, 1)",
