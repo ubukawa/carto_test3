@@ -30,24 +30,108 @@
       "paint": {"fill-color": "rgba(220, 213, 143, 1)"}
     },
    {
-      "id": "bnda-asia",
+      "id": "bnda-visited",
       "type": "fill",
       "source": "natural_earth",
       "source-layer": "bnda",
       "minzoom": 0,
       "maxzoom": 10,
-      "layout": {"visibility": "visible"},
       "paint": {
-         "fill-color": "rgba(244, 149, 140, 1)"
-         },
+        "fill-color": "rgba(247, 66, 47, 1)"
+            },
       "filter": [
-        "all",
+       "any",
           [
-           "==",
-           "CONTINENT",
-           "Asia"
+          "==",
+          "NAME",
+          "Japan"
+          ],
+           [
+          "==",
+          "NAME",
+          "South Korea"
+          ],
+           [
+          "==",
+          "NAME",
+          "Russia"
+          ],
+           [
+          "==",
+          "NAME",
+          "Kazakhstan"
+          ],
+           [
+          "==",
+          "NAME",
+          "Vietnam"
+          ],
+           [
+          "==",
+          "NAME",
+          "Thailand"
+          ],
+           [
+          "==",
+          "NAME",
+          "Myanmar"
+          ],
+           [
+          "==",
+          "NAME",
+          "France"
+          ],
+           [
+          "==",
+          "NAME",
+          "United Kingdom"
+          ],
+           [
+          "==",
+          "NAME",
+          "Australia"
+          ],
+           [
+          "==",
+          "NAME",
+          "Switzerland"
+          ],
+           [
+          "==",
+          "NAME",
+          "Ethiopia"
+          ],
+           [
+          "==",
+          "NAME",
+          "Kenya"
+          ],
+           [
+          "==",
+          "NAME",
+          "Mozambique"
+          ],
+           [
+          "==",
+          "NAME",
+          "Nigeria"
+          ],
+           [
+          "==",
+          "ISO_A3",
+          "CIV"
+          ],
+           [
+          "==",
+          "ISO_A3",
+          "USA"
+          ],
+          [
+          "==",
+          "NAME",
+          "China"
           ]
-        ]
+         ]
     },
     {
       "id": "bndl_intl",
