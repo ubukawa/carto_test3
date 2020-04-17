@@ -49,6 +49,35 @@
           ]
         ]
     },
+   {
+      "id": "bnda-visited",
+      "type": "fill",
+      "source": "natural_earth",
+      "source-layer": "bnda",
+      "minzoom": 0,
+      "maxzoom": 10,
+      "paint": {
+        "fill-color": "rgba(247, 66, 47, 1)"
+            },
+      "filter": [
+       "any",
+          [
+          "==",
+          "NAME",
+          "Japan"
+          ],
+           [
+          "==",
+          "NAME",
+          "South Korea"
+          ],
+          [
+          "==",
+          "NAME",
+          "China"
+          ]
+         ]
+    },
     {
       "id": "bndl_intl",
       "type": "line",
@@ -110,7 +139,18 @@
            "circle-color": "rgba(255, 0, 0, 1)",
            "circle-radius": 5
         }
-      }
+      },
+    {
+      "id": "test",
+      "type": "symbol",
+      "source": "natural_earth",
+      "source-layer": "popp",
+      "layout": {
+        "visibility": "visible",
+        "icon-image": "bus-11",
+        "text-field": "{NAME}"
+    }
+   }
  ],
 "id": "vector-sample"
 }
