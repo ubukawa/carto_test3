@@ -139,18 +139,7 @@
            "circle-color": "rgba(255, 0, 0, 1)",
            "circle-radius": 5
         }
-      },
-    {
-      "id": "test",
-      "type": "symbol",
-      "source": "natural_earth",
-      "source-layer": "popp",
-      "layout": {
-        "visibility": "visible",
-        "icon-image": "bus-11",
-        "text-field": "{NAME}"
-    }
-   }
+      }
  ],
 "id": "vector-sample"
 }
