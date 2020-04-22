@@ -5,7 +5,7 @@
       "tiles": [
         "https://ubukawa.github.io/carto_test3/data/nat_rob4/{z}/{x}/{y}.pbf"
       ], 
-      "maxzoom": 8, 
+      "maxzoom": 4, 
       "minzoom": 0, 
       "attribution": "test"
     }
