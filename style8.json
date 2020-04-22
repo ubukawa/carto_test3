@@ -1,0 +1,138 @@
+{"version": 8,"name": "natural earth style","metadata": {},
+"sources": {
+    "natural_earth": {
+      "type": "vector",
+      "tiles": [
+        "https://ubukawa.github.io/carto_test3/data/nat_rob4/{z}/{x}/{y}.pbf"
+      ], 
+      "maxzoom": 8, 
+      "minzoom": 0, 
+      "attribution": "test"
+    }
+}, 
+"sprite": "https://cyberjapandata.gsi.go.jp/vector/sprite/std",
+"glyphs": "https://cyberjapandata.gsi.go.jp/xyz/noto-jp/{fontstack}/{range}.pbf",
+"layers": [
+    {
+      "id": "back",
+      "type": "background",
+      "layout": {"visibility": "visible"},
+      "paint": {"background-color": "rgba(146, 171, 230, 1)"}
+    },
+    {
+      "id": "bnda",
+      "source": "natural_earth",
+      "source-layer": "bnda",
+      "type": "fill",
+      "minzoom": 0,
+      "maxzoom": 10,
+      "layout": {"visibility": "visible"},
+      "paint": {"fill-color": "rgba(220, 213, 143, 1)"}
+    },
+   {
+      "id": "bnda-visited",
+      "type": "fill",
+      "source": "natural_earth",
+      "source-layer": "bnda",
+      "minzoom": 0,
+      "maxzoom": 10,
+      "paint": {
+        "fill-color": "rgba(247, 66, 47, 1)"
+            },
+      "filter": [
+       "any",
+          [
+          "==",
+          "NAME",
+          "Japan"
+          ],
+           [
+          "==",
+          "NAME",
+          "South Korea"
+          ],
+           [
+          "==",
+          "NAME",
+          "Russia"
+          ],
+           [
+          "==",
+          "NAME",
+          "Kazakhstan"
+          ],
+           [
+          "==",
+          "NAME",
+          "Vietnam"
+          ],
+           [
+          "==",
+          "NAME",
+          "Thailand"
+          ],
+           [
+          "==",
+          "NAME",
+          "Myanmar"
+          ],
+           [
+          "==",
+          "NAME",
+          "France"
+          ],
+           [
+          "==",
+          "NAME",
+          "United Kingdom"
+          ],
+           [
+          "==",
+          "NAME",
+          "Australia"
+          ],
+           [
+          "==",
+          "NAME",
+          "Switzerland"
+          ],
+           [
+          "==",
+          "NAME",
+          "Ethiopia"
+          ],
+           [
+          "==",
+          "NAME",
+          "Kenya"
+          ],
+           [
+          "==",
+          "NAME",
+          "Mozambique"
+          ],
+           [
+          "==",
+          "NAME",
+          "Nigeria"
+          ],
+           [
+          "==",
+          "ISO_A3",
+          "CIV"
+          ],
+           [
+          "==",
+          "ISO_A3",
+          "USA"
+          ],
+          [
+          "==",
+          "NAME",
+          "China"
+          ]
+         ]
+      }
+ ],
+"id": "vector-sample"
+}
