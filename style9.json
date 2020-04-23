@@ -21,14 +21,14 @@
     {
       "id": "bnda",
       "type": "fill",
-      "source": "naturalearth",
+      "source": "natural_earth",
       "source-layer": "bnda",
       "paint": {"fill-color": "rgba(173, 168, 168, 1)"}
     },
     {
       "id": "bndl_intl",
       "type": "line",
-      "source": "naturalearth",
+      "source": "natural_earth",
       "source-layer": "bndl",
       "filter": [
         "all",
@@ -39,7 +39,7 @@
     {
       "id": "bndl_dispute",
       "type": "line",
-      "source": "naturalearth",
+      "source": "natural_earth",
       "source-layer": "bndl",
       "filter": ["all", ["==", "featurecla", "Disputed (please verify)"]],
       "layout": {"visibility": "visible"},
@@ -51,7 +51,7 @@
     {
       "id": "bndl_indefinite",
       "type": "line",
-      "source": "naturalearth",
+      "source": "natural_earth",
       "source-layer": "bndl",
       "filter": ["all", ["==", "featurecla", "Indefinite (please verify)"]],
       "layout": {"visibility": "visible"},
@@ -60,7 +60,7 @@
     {
       "id": "bndl_control line",
       "type": "line",
-      "source": "naturalearth",
+      "source": "natural_earth",
       "source-layer": "bndl",
       "filter": [
         "all",
@@ -72,7 +72,7 @@
     {
       "id": "popp",
       "type": "circle",
-      "source": "naturalearth",
+      "source": "natural_earth",
       "source-layer": "popp",
       "maxzoom": 10,
       "layout": {"visibility": "visible"},
