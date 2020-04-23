@@ -184,7 +184,38 @@
            "circle-color": "rgba(255, 0, 0, 1)",
            "circle-radius": 5
         }
-      }
+      },
+    {
+      "id": "pop_text",
+      "layout": {
+        "text-field": [
+          "get",
+          "NAME"
+        ],
+        "text-font": [
+          "Noto Sans Regular"
+        ],
+        "text-size": 14
+      },
+      "paint": {
+        "text-color": [
+          "rgb",
+          0,
+          0,
+          0
+        ],
+        "text-halo-color": [
+          "rgb",
+          238,
+          238,
+          238
+        ],
+        "text-halo-width": 1
+      },
+      "source": "natural_earth",
+      "source-layer": "popp",
+      "type": "symbol"
+    }
  ],
 "id": "vector-sample"
 }
