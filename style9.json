@@ -82,7 +82,18 @@
         "circle-pitch-alignment": "map",
         "circle-radius": 3
       }
-    }
+    },
+    {
+      "id":"text",
+      "layout":{"text-allow-overlap":true,
+      "text-field":["step",["zoom"],["get","ISO_A2"],2,["get","ISO_A2"],4,["get","NAME"]],
+      "text-font":["NotoSansCJKjp-Regular"],
+      "text-size":["step",["zoom"],9,1,14]},
+      "paint":{},
+      "source":"natural_earth",
+      "source-layer":"bnda",
+      "type":"symbol"
+     }
   ],
 
 
