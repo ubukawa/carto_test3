@@ -189,20 +189,19 @@
       "id": "pop_text",
       "layout": {
         "text-field": [
-          "get",
-          "NAME"
+          "{NAME}"
         ],
         "text-font": [
-          "Noto Sans Regular"
+          "sans"
         ],
         "text-size": 14
       },
       "paint": {
         "text-color": [
           "rgb",
-          0,
-          0,
-          0
+          97,
+          97,
+          97
         ],
         "text-halo-color": [
           "rgb",
