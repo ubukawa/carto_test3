@@ -1,0 +1,16 @@
+{
+  "tilejson": "2.2.0",
+  "tiles": ["https://tabularmaps.github.io/8bit-tile/{z}/{x}/{y}.pbf"],
+  "name": "tabularmap",
+  "attribution": "test",
+  "maxzoom": 0,
+  "minzoom": 0,
+  "bounds": [-180,-70,180,70],
+  "center": [0,0,0],
+  "vector_layers": [{
+    "id": "tabular",
+    "description": "test",
+    "maxzoom": 0,
+    "minzoom": 0
+  }]
+}
